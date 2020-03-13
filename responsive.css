@@ -1,0 +1,64 @@
+@media (max-width: 1000px)  {
+	.header-right{
+		display: none;
+	}
+
+	.menu-icon{
+		display: block;
+	}
+
+	.header-left{
+		padding-left: 30px;
+	}
+  
+}
+
+@media (max-width: 670px) {
+	.introduction-item{
+		width: 100%;
+	}
+
+	.top-wrapper{
+		padding: 250px 60px 100px 30px;
+	}
+
+	.top-wrapper h1{
+		font-size: 1.1em;
+	}
+
+	.top-wrapper p{
+		font-size: 0.3em;
+	}
+
+	.footer-navi {
+		padding-inline-start: 0;
+		vertical-align: middle;
+	}
+
+	.footer-copyright{
+		padding: 10px 15px;
+		
+	}
+
+@media (max-width: 350px) {
+	.experience{
+		display: none;
+	}
+
+}
+
+	
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+/*mobileの時、フッターが中央寄りになってない*/
