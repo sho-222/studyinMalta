@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+　max-width: 1170px;
+  width: 100%;
+}
+
+.top-wrapper h1{
+  opacity: 1.0;
+  font-size: 34px;
+  letter-spacing: 8px;
+  font-family: sans-serif;
+}
+
+.top-wrapper p {
+  opacity: 1.0;
+  font-weight: bold;
+}
+
+
+/*ヘッダー*/
+.title-name{
+  font-family: monospace;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+
+/*スライドショー*/
+.swiper-img{
+  width: 100vw;
+  background: cover;
+　height: auto;
+}
+
+
+/*マルタってどんな国？の表題、地図、テキストコンテンツ*/
+.theme-text{
+  border-bottom: dotted 3px orange;
+}
+
+.country-description{
+	line-height: 2.0;
+}
+
+.country-image{
+	border-radius: 40px;
+}
+
+
+
+/*ここからヘッダーのcss*/
+header{
+	height: 65px;
+  position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.main-logo{
+	width: 40px;
+  height: 40px;
+}
+
+.header-right{
+	float: right;
+  line-height: 65px;
+}
+
+.header-left{
+	float: left;
+  line-height: 65px;
+}
+
+.menu-icon{
+  float: right;
+  font-size: 25px;
+  line-height: 65px;
+  display: none;
+}
+
+/*ここからmain-wrapperのcss*/
+.introduction-item{
+	float: left;
+	width: 50%;
+}
+
+
+.introduction-item a{
+  display: block;
+}
+
+
+.text-contents {
+  display: inline-block;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+
+/*ここから体験談のタブ要素*/
+.experience{
+  width: 80%;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 140px;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.menu li a:not(active):hover{
+  opacity: 0.5;
+  transition: 0.4s;
+}
+
+.content{
+  display: none;
+}
+
+.menu li a.active{
+  background: #333;
+  color: white;
+}
+
+.content.active{
+  background: #333;
+  color: white;
+  min-height: 150px;
+  display: block;
+}
+
+
+/*ここからfooter*/
+.footer-navi li{
+	list-style: none;
+	display: inline
+}
+
+.footer-copyright{
+	font-size: 10px;
+	line-height: 2.0;
+}
+
+/*
+とりあえずできるところまでbootstrapに書き換えて、次に進む
+現状のものをコピペして、最初から作り直すのもあり。データは全部揃ってるし、機能を一新するだけ
+flexboxとbootstrap*/
+
+
+
